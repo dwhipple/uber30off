@@ -38,6 +38,28 @@ $(function() {
         }
     });
 
+    /*ZeroClipboard Click to Copy
+    ================================================================
+
+
+    var client = new ZeroClipboard();
+
+    client.on( "copy", function (event) {
+  var clipboard = event.clipboardData;
+  clipboard.setData( "text/plain", "Copy me!" );
+  clipboard.setData( "text/html", "<b>Copy me!</b>" );
+  clipboard.setData( "application/rtf", "{\\rtf1\\ansi\n{\\b Copy me!}}" );
+});
+
+    ZeroClipboard.setData( "text/plain", "Copy me!" );
+    client.setText( "Copy me!" );
+    client.clip( document.getElementById("d_clip_button") );
+
+    var client = new ZeroClipboard( $("button#my-button") );
+
+    */
+
+
 
 
     /*
